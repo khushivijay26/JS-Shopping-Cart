@@ -1,0 +1,82 @@
+.header {
+  background-color: #333333;
+  color: white;
+
+}
+
+h1 {
+  color: #ff6d34;
+  font-weight: 300;
+}
+
+h4 {
+  font-weight: 300;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.image {
+  width: 10rem;
+}
+
+.count {
+  width: 10rem;
+  border: 1px solid grey;
+}
+
+.add {
+  background-color: #FF6D34;
+  color: white;
+  border-radius: unset;
+  padding: 0.35rem;
+  font-size: 12px;
+}
+
+.add:hover {
+  background-color: #0079A1;
+  color: white;
+}
+
+.cart {
+  box-shadow: 0 0 5px #DDD;
+  padding: 20px;
+}
+
+.clear {
+  border-radius: unset;
+  color: black;
+  background-color: lightgrey;
+  border: unset;
+}
+
+.clear:hover{
+  background-color: #FF6D34;
+  color: white;
+}
+
+.checkout {
+  background-color: #0079A1;
+  border: unset;
+  border-radius: unset;
+  color: white;
+}
+
+.panel {
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 640px) {
+  .add {
+    margin-top: 0 !important;
+  }
+
+  .right-section {
+    margin-top: 1rem;
+  }
+
+  .checkout {
+    margin-top: 1rem;
+  }
+}
